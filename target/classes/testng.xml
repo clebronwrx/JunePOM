@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite">
+
+
+
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://www.suntrust.com/"></parameter>
+
+	<test name="Regression Test chrome">
+		<groups>
+			<run>
+				<exclude name="home"></exclude>
+				<exclude name="commercial"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="Testcases.HomePageTest"></class>
+			<class name="Testcases.CNCPageTest"></class>
+		</classes>
+
+
+
+	</test>
+
+</suite>
