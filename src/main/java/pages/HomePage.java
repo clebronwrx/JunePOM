@@ -46,32 +46,49 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = "//span[@class='suntrust-user-icon']")
 	WebElement userIcon;
- 
+
 	@FindBy(xpath = "//a[@class='suntrust-subMenuanchor'][contains(text(),'Corporate & Commercial')]")
 	WebElement corpAndCommercialTab;
+	
+	@FindBy(xpath="//form[@name='loginForm-signonblade-OLB']") 
+	WebElement singOnMenu;
+	
 
 	public void clickOnCNCOption() {
-	corpAndCommercialTab.click();;
+		clickOnElement(corpAndCommercialTab);		;
 	}
 
 	public void selectCNCOption(String option) throws Exception {
 		Actions action = new Actions(driver);
-		wait= new WebDriverWait(driver, 10);
+		wait = new WebDriverWait(driver, 10);
+		
 		action.moveToElement(corpAndCommercialTab).build().perform();
-		
+
 		WebElement link = driver.findElement(By.linkText(option));
-	    clickOn(driver, link,10);
-	    Thread.sleep(5000);
 		
-	}
+		clickOn(driver, link, 10);
 		
-	//public String getCNCTitleTest() {
-		//wait= new WebDriverWait(driver, 10);
-		//wait.until(ExpectedConditions.
-		//String s1 =driver.getTitle().toString();
-		//return s1;
-//	}
-	
-	
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.tagName("title"))));
+
 	}
 
+	public void clickOnFindUs() {
+		clickOnElement(findUsBtn);
+	}
+	
+	public void clickOnSignOn() {
+		
+		clickOnElement(signOn);
+		wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("suntrust-login-form"))));
+		
+	}
+	public void clickOnOpenAccount() {
+		clickOnElement(openAccount);
+	}
+	public boolean SignOnMenuIsDisplayed() {
+		boolean b = singOnMenu.isDisplayed();
+		return b;
+	}
+	
+}

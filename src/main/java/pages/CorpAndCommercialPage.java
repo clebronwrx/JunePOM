@@ -14,6 +14,8 @@ public class CorpAndCommercialPage extends TestBase{
 	PageFactory.initElements(driver, this);
 	}
 	
+	@FindBy(xpath="//select[@id='suntrust-control-drop-544098144']")
+	WebElement serviceDropDown;
 	
 	@FindBy(xpath="//a[contains(text(),'The SunTrust Advantage')][@title='The SunTrust Advantage']")
 	WebElement suntrustAdvantageTab;
@@ -23,14 +25,21 @@ public class CorpAndCommercialPage extends TestBase{
 	
 	
 	public void clicksuntrustAdvangeTab() {
-		wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.elementToBeClickable(closeCovidAlert)).click();
-		suntrustAdvantageTab.click();
-	
+			wait = new WebDriverWait(driver, 10);
+			wait.until(ExpectedConditions.elementToBeClickable(suntrustAdvantageTab));
+			closeCovidAlert.click();
+
+			suntrustAdvantageTab.click();
+			if(closeCovidAlert.isDisplayed()) {
+				closeCovidAlert.click();
+			}
+		}
 		
+	
+	
+	public void chooseWhichServiceFromDropDown(String value) {
+		selectOptionByVisibleText(serviceDropDown, value);
 	}
-	
-	
 	
 	
 	

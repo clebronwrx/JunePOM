@@ -3,16 +3,20 @@
 
 <suite name="Regression Suite">
 
+	<listeners>
 
+		<listener class-name="ExtentReport.TestListeners"></listener>
+	</listeners>
 
 	<parameter name="browser" value="chrome"></parameter>
 	<parameter name="url" value="https://www.suntrust.com/"></parameter>
 
 	<test name="Regression Test chrome">
-		<groups>
+	 <groups>
 			<run>
-				<exclude name="home"></exclude>
-				<exclude name="commercial"></exclude>
+
+				<exclude name="links"></exclude>
+
 			</run>
 		</groups>
 		<classes>

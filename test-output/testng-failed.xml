@@ -3,18 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
   <parameter name="browser" value="chrome"/>
   <parameter name="url" value="https://www.suntrust.com/"/>
+  <listeners>
+    <listener class-name="ExtentReport.TestListeners"/>
+  </listeners>
   <test thread-count="5" name="Regression Test chrome(failed)">
     <groups>
       <run>
-        <exclude name="home"/>
-        <exclude name="commercial"/>
+        <exclude name="links"/>
       </run>
     </groups>
     <classes>
       <class name="Testcases.HomePageTest">
         <methods>
+          <include name="verifySignOnButton"/>
           <include name="setup"/>
-          <include name="checkCNCHoverOptions" invocation-numbers="3 11 13"/>
+          <include name="checkCNCHoverByOptions"/>
           <include name="initialize"/>
           <include name="teardown"/>
         </methods>
