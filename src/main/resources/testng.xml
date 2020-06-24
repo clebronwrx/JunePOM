@@ -12,7 +12,7 @@
 	<parameter name="url" value="https://www.suntrust.com/"></parameter>
 
 	<test name="Regression Test chrome">
-	 <groups>
+		<groups>
 			<run>
 
 				<exclude name="links"></exclude>

@@ -1,133 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Regression Suite" duration-ms="38429" started-at="2020-06-24T17:09:04 EDT" finished-at="2020-06-24T17:09:42 EDT">
-    <groups>
-      <group name="commercial">
-        <method signature="CNCPageTest.verifyAdvantageTitleTest()[pri:1, instance:Testcases.CNCPageTest@679b62af]" name="verifyAdvantageTitleTest" class="Testcases.CNCPageTest"/>
-      </group> <!-- commercial -->
-      <group name="home">
-        <method signature="HomePageTest.getHomePageLinksAmount()[pri:1, instance:Testcases.HomePageTest@32cf48b7]" name="getHomePageLinksAmount" class="Testcases.HomePageTest"/>
-      </group> <!-- home -->
-    </groups>
-    <test name="Regression Test chrome" duration-ms="38429" started-at="2020-06-24T17:09:04 EDT" finished-at="2020-06-24T17:09:42 EDT">
-      <class name="Testcases.CNCPageTest">
-        <test-method status="PASS" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.CNCPageTest@679b62af]" name="initialize" is-config="true" duration-ms="6323" started-at="2020-06-24T17:09:17 EDT" finished-at="2020-06-24T17:09:23 EDT">
-          <params>
-            <param index="0">
-              <value>
+<testng-results skipped="0" failed="0" ignored="1"
+	total="5" passed="4">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Regression Suite" duration-ms="38429"
+		started-at="2020-06-24T17:09:04 EDT"
+		finished-at="2020-06-24T17:09:42 EDT">
+		<groups>
+			<group name="commercial">
+				<method
+					signature="CNCPageTest.verifyAdvantageTitleTest()[pri:1, instance:Testcases.CNCPageTest@679b62af]"
+					name="verifyAdvantageTitleTest" class="Testcases.CNCPageTest" />
+			</group> <!-- commercial -->
+			<group name="home">
+				<method
+					signature="HomePageTest.getHomePageLinksAmount()[pri:1, instance:Testcases.HomePageTest@32cf48b7]"
+					name="getHomePageLinksAmount" class="Testcases.HomePageTest" />
+			</group> <!-- home -->
+		</groups>
+		<test name="Regression Test chrome" duration-ms="38429"
+			started-at="2020-06-24T17:09:04 EDT"
+			finished-at="2020-06-24T17:09:42 EDT">
+			<class name="Testcases.CNCPageTest">
+				<test-method status="PASS"
+					signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.CNCPageTest@679b62af]"
+					name="initialize" is-config="true" duration-ms="6323"
+					started-at="2020-06-24T17:09:17 EDT"
+					finished-at="2020-06-24T17:09:23 EDT">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
+							</value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA[https://www.suntrust.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.CNCPageTest@679b62af]" name="setup" is-config="true" duration-ms="126" started-at="2020-06-24T17:09:23 EDT" finished-at="2020-06-24T17:09:23 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAdvantageTitleTest()[pri:1, instance:Testcases.CNCPageTest@679b62af]" name="verifyAdvantageTitleTest" duration-ms="6288" started-at="2020-06-24T17:09:23 EDT" finished-at="2020-06-24T17:09:29 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdvantageTitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcases.CNCPageTest@679b62af]" name="teardown" is-config="true" duration-ms="115" started-at="2020-06-24T17:09:29 EDT" finished-at="2020-06-24T17:09:30 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.CNCPageTest@679b62af]" name="initialize" is-config="true" duration-ms="5908" started-at="2020-06-24T17:09:30 EDT" finished-at="2020-06-24T17:09:35 EDT">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="setup()[pri:0, instance:Testcases.CNCPageTest@679b62af]"
+					name="setup" is-config="true" duration-ms="126"
+					started-at="2020-06-24T17:09:23 EDT"
+					finished-at="2020-06-24T17:09:23 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setup -->
+				<test-method status="PASS"
+					signature="verifyAdvantageTitleTest()[pri:1, instance:Testcases.CNCPageTest@679b62af]"
+					name="verifyAdvantageTitleTest" duration-ms="6288"
+					started-at="2020-06-24T17:09:23 EDT"
+					finished-at="2020-06-24T17:09:29 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- verifyAdvantageTitleTest -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:Testcases.CNCPageTest@679b62af]"
+					name="teardown" is-config="true" duration-ms="115"
+					started-at="2020-06-24T17:09:29 EDT"
+					finished-at="2020-06-24T17:09:30 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+				<test-method status="PASS"
+					signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.CNCPageTest@679b62af]"
+					name="initialize" is-config="true" duration-ms="5908"
+					started-at="2020-06-24T17:09:30 EDT"
+					finished-at="2020-06-24T17:09:35 EDT">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
+							</value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA[https://www.suntrust.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.CNCPageTest@679b62af]" name="setup" is-config="true" duration-ms="88" started-at="2020-06-24T17:09:35 EDT" finished-at="2020-06-24T17:09:35 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyServiceOptions()[pri:2, instance:Testcases.CNCPageTest@679b62af]" name="verifyServiceOptions" duration-ms="6446" started-at="2020-06-24T17:09:35 EDT" finished-at="2020-06-24T17:09:42 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyServiceOptions -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcases.CNCPageTest@679b62af]" name="teardown" is-config="true" duration-ms="103" started-at="2020-06-24T17:09:42 EDT" finished-at="2020-06-24T17:09:42 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.CNCPageTest -->
-      <class name="Testcases.HomePageTest">
-        <test-method status="PASS" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.HomePageTest@32cf48b7]" name="initialize" is-config="true" duration-ms="7393" started-at="2020-06-24T17:09:04 EDT" finished-at="2020-06-24T17:09:11 EDT">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="setup()[pri:0, instance:Testcases.CNCPageTest@679b62af]"
+					name="setup" is-config="true" duration-ms="88"
+					started-at="2020-06-24T17:09:35 EDT"
+					finished-at="2020-06-24T17:09:35 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setup -->
+				<test-method status="PASS"
+					signature="verifyServiceOptions()[pri:2, instance:Testcases.CNCPageTest@679b62af]"
+					name="verifyServiceOptions" duration-ms="6446"
+					started-at="2020-06-24T17:09:35 EDT"
+					finished-at="2020-06-24T17:09:42 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- verifyServiceOptions -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:Testcases.CNCPageTest@679b62af]"
+					name="teardown" is-config="true" duration-ms="103"
+					started-at="2020-06-24T17:09:42 EDT"
+					finished-at="2020-06-24T17:09:42 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+			</class> <!-- Testcases.CNCPageTest -->
+			<class name="Testcases.HomePageTest">
+				<test-method status="PASS"
+					signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.HomePageTest@32cf48b7]"
+					name="initialize" is-config="true" duration-ms="7393"
+					started-at="2020-06-24T17:09:04 EDT"
+					finished-at="2020-06-24T17:09:11 EDT">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
+							</value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA[https://www.suntrust.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.HomePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="17" started-at="2020-06-24T17:09:11 EDT" finished-at="2020-06-24T17:09:11 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getHomePageLinksAmount()[pri:1, instance:Testcases.HomePageTest@32cf48b7]" name="getHomePageLinksAmount" duration-ms="185" started-at="2020-06-24T17:09:11 EDT" finished-at="2020-06-24T17:09:11 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getHomePageLinksAmount -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcases.HomePageTest@32cf48b7]" name="teardown" is-config="true" duration-ms="147" started-at="2020-06-24T17:09:11 EDT" finished-at="2020-06-24T17:09:11 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.HomePageTest@32cf48b7]" name="initialize" is-config="true" duration-ms="4415" started-at="2020-06-24T17:09:11 EDT" finished-at="2020-06-24T17:09:16 EDT">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="setup()[pri:0, instance:Testcases.HomePageTest@32cf48b7]"
+					name="setup" is-config="true" duration-ms="17"
+					started-at="2020-06-24T17:09:11 EDT"
+					finished-at="2020-06-24T17:09:11 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setup -->
+				<test-method status="PASS"
+					signature="getHomePageLinksAmount()[pri:1, instance:Testcases.HomePageTest@32cf48b7]"
+					name="getHomePageLinksAmount" duration-ms="185"
+					started-at="2020-06-24T17:09:11 EDT"
+					finished-at="2020-06-24T17:09:11 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- getHomePageLinksAmount -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:Testcases.HomePageTest@32cf48b7]"
+					name="teardown" is-config="true" duration-ms="147"
+					started-at="2020-06-24T17:09:11 EDT"
+					finished-at="2020-06-24T17:09:11 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+				<test-method status="PASS"
+					signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Testcases.HomePageTest@32cf48b7]"
+					name="initialize" is-config="true" duration-ms="4415"
+					started-at="2020-06-24T17:09:11 EDT"
+					finished-at="2020-06-24T17:09:16 EDT">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
+							</value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA[https://www.suntrust.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.HomePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="2" started-at="2020-06-24T17:09:16 EDT" finished-at="2020-06-24T17:09:16 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifySignOnMenuOpens()[pri:3, instance:Testcases.HomePageTest@32cf48b7]" name="verifySignOnMenuOpens" duration-ms="744" started-at="2020-06-24T17:09:16 EDT" finished-at="2020-06-24T17:09:17 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignOnMenuOpens -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcases.HomePageTest@32cf48b7]" name="teardown" is-config="true" duration-ms="91" started-at="2020-06-24T17:09:17 EDT" finished-at="2020-06-24T17:09:17 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.HomePageTest -->
-    </test> <!-- Regression Test chrome -->
-  </suite> <!-- Regression Suite -->
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="setup()[pri:0, instance:Testcases.HomePageTest@32cf48b7]"
+					name="setup" is-config="true" duration-ms="2"
+					started-at="2020-06-24T17:09:16 EDT"
+					finished-at="2020-06-24T17:09:16 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setup -->
+				<test-method status="PASS"
+					signature="verifySignOnMenuOpens()[pri:3, instance:Testcases.HomePageTest@32cf48b7]"
+					name="verifySignOnMenuOpens" duration-ms="744"
+					started-at="2020-06-24T17:09:16 EDT"
+					finished-at="2020-06-24T17:09:17 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- verifySignOnMenuOpens -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:Testcases.HomePageTest@32cf48b7]"
+					name="teardown" is-config="true" duration-ms="91"
+					started-at="2020-06-24T17:09:17 EDT"
+					finished-at="2020-06-24T17:09:17 EDT">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+			</class> <!-- Testcases.HomePageTest -->
+		</test> <!-- Regression Test chrome -->
+	</suite> <!-- Regression Suite -->
 </testng-results>

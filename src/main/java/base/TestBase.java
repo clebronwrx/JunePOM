@@ -37,6 +37,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
@@ -59,8 +60,7 @@ public class TestBase {
 
 	@BeforeMethod
 	@Parameters({ "browser", "url" })
-
-	public void initialize(String browser, String url) throws Exception {
+	public void initialize(@Optional("chrome")String browser, String url) throws Exception {
 
 //		DesiredCapabilities cap = new DesiredCapabilities().chrome();
 //		
@@ -70,7 +70,7 @@ public class TestBase {
 //		
 //		
 //		ChromeOptions chrome = new ChromeOptions();
-//		chrome.merge(cap);
+//		chrome.merge(cap);  
 //		
 //		String hubURL = " http://10.0.0.161:4444/wd/hub";
 //		WebDriver driver = new RemoteWebDriver(new URL(hubURL), cap);
