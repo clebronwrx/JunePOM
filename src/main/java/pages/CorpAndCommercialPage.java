@@ -27,11 +27,11 @@ public class CorpAndCommercialPage extends TestBase{
 	public void clicksuntrustAdvangeTab() {
 			wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.elementToBeClickable(suntrustAdvantageTab));
-			closeCovidAlert.click();
+			clickOn(driver, closeCovidAlert, 10);
 
 			suntrustAdvantageTab.click();
 			if(closeCovidAlert.isDisplayed()) {
-				closeCovidAlert.click();
+			clickOn(driver, closeCovidAlert, 10);
 			}
 		}
 		

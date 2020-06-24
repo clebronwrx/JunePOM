@@ -55,7 +55,7 @@ public class HomePage extends TestBase {
 	
 
 	public void clickOnCNCOption() {
-		clickOnElement(corpAndCommercialTab);		;
+		clickOn(driver, corpAndCommercialTab, 10);		;
 	}
 
 	public void selectCNCOption(String option) throws Exception {
@@ -73,18 +73,18 @@ public class HomePage extends TestBase {
 	}
 
 	public void clickOnFindUs() {
-		clickOnElement(findUsBtn);
+		clickOn(driver, findUsBtn, 10);
 	}
 	
 	public void clickOnSignOn() {
 		
-		clickOnElement(signOn);
+		clickOn(driver, signOn, 10);
 		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("suntrust-login-form"))));
 		
 	}
 	public void clickOnOpenAccount() {
-		clickOnElement(openAccount);
+		clickOn(driver, openAccount, 10);
 	}
 	public boolean SignOnMenuIsDisplayed() {
 		boolean b = singOnMenu.isDisplayed();
