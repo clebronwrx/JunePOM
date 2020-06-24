@@ -14,6 +14,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import base.TestBase;
 
@@ -26,7 +27,7 @@ public class TestUtil extends TestBase{
 	public static Object[][] getTestData(String sheetName) {
 		FileInputStream file =null;
 		try {
-		 file = new FileInputStream("/Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/testdata/Commercial Tab OptionNTitles Test Data.xlsx");
+		 file = new FileInputStream("/Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/testdata/Commercial Tab OptionNTitles Test Data .xlsx");
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -48,13 +49,13 @@ public class TestUtil extends TestBase{
 		return data;
 	}
 	
-	public static void screenshot() throws Exception {
+	public static void screenshot(WebDriver driver, String shotName) throws Exception {
 		String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		File shot =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");//+"/screenshots/" + date + ".png");
 		String destination = currentDir + "/screenshot/"+date+".png";
 		FileUtils.copyFile(shot, new File(destination));
-		
+	
 	}
 	
 	
