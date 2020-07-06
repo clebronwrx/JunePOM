@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Regression_Suite">
-              <span class="suite-name border-skipped">Regression Suite</span>
+              <span class="suite-name border-passed">Regression Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  2 skipped,  5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods skipped suite-Regression_Suite"> (hide)</a> <!-- hide-methods skipped suite-Regression_Suite -->
-                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods skipped suite-Regression_Suite"> (show)</a> <!-- show-methods skipped suite-Regression_Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Regression_Suite">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySmallBusiness_CashMngmntOptionTitleTest">verifySmallBusiness_CashMngmntOptionTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySmallBusiness_PayrollOptionTitleTest">verifySmallBusiness_PayrollOptionTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Regression_Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -156,54 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
-          <div class="suite-Regression_Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Testcases.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySmallBusiness_CashMngmntOptionTitleTest">
-                  </a> <!-- verifySmallBusiness_CashMngmntOptionTitleTest -->
-                  <span class="method-name">verifySmallBusiness_CashMngmntOptionTitleTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Cash&quot;. Current title: &quot;SunTrust Bank | Personal, Mortgage and Small Business Banking&quot; (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Chriss-MacBook-Pro.local&apos;, ip: &apos;2601:588:4200:c6c0:8827:a5da:daee:7999%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/5q/jcmjcy29617...}, goog:chromeOptions: {debuggerAddress: localhost:50299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 62e39f99915209a8d0fb5714387d3d5d
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at pages.HomePage.checkSmallBusinessLinkOptions(HomePage.java:108)
-	at Testcases.HomePageTest.verifySmallBusiness_CashMngmntOptionTitleTest(HomePageTest.java:104)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySmallBusiness_PayrollOptionTitleTest">
-                  </a> <!-- verifySmallBusiness_PayrollOptionTitleTest -->
-                  <span class="method-name">verifySmallBusiness_PayrollOptionTitleTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Payroll&quot;. Current title: &quot;SunTrust Bank | Personal, Mortgage and Small Business Banking&quot; (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Chriss-MacBook-Pro.local&apos;, ip: &apos;2601:588:4200:c6c0:8827:a5da:daee:7999%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/5q/jcmjcy29617...}, goog:chromeOptions: {debuggerAddress: localhost:50558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 388fcc75ce49315074560451b24dfc49
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at pages.HomePage.checkSmallBusinessLinkOptions(HomePage.java:108)
-	at Testcases.HomePageTest.verifySmallBusiness_PayrollOptionTitleTest(HomePageTest.java:88)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Suite-class-skipped -->
           <div class="suite-Regression_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -317,40 +250,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifySmallBusiness_CashMngmntOptionTitleTest')
+data.setCell(0, 1, 'verifySmallBusiness_PayrollOptionTitleTest')
 data.setCell(0, 2, 'Testcases.HomePageTest')
-data.setCell(0, 3, 31999);
+data.setCell(0, 3, 7495);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifySmallBusiness_PayrollOptionTitleTest')
+data.setCell(1, 1, 'verifySmallBusiness_CashMngmntOptionTitleTest')
 data.setCell(1, 2, 'Testcases.HomePageTest')
-data.setCell(1, 3, 29819);
+data.setCell(1, 3, 7343);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifySmallBusiness_CCOptionTitleTest')
 data.setCell(2, 2, 'Testcases.HomePageTest')
-data.setCell(2, 3, 7021);
+data.setCell(2, 3, 4608);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySmallBusiness_PayrollOptionTitleTest')
+data.setCell(3, 1, 'verifySignOnMenuOpensTest')
 data.setCell(3, 2, 'Testcases.HomePageTest')
-data.setCell(3, 3, 5379);
+data.setCell(3, 3, 880);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifySmallBusiness_CashMngmntOptionTitleTest')
+data.setCell(4, 1, 'getHomePageLinksAmountTest')
 data.setCell(4, 2, 'Testcases.HomePageTest')
-data.setCell(4, 3, 4439);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifySignOnMenuOpensTest')
-data.setCell(5, 2, 'Testcases.HomePageTest')
-data.setCell(5, 3, 1896);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getHomePageLinksAmountTest')
-data.setCell(6, 2, 'Testcases.HomePageTest')
-data.setCell(6, 3, 186);
+data.setCell(4, 3, 267);
 window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Regression_Suite">
               </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
@@ -392,111 +317,79 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">6627 ms</span>
+                <span class="method-start">6043 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getHomePageLinksAmountTest</span>
-                <span class="method-start">6640 ms</span>
+                <span class="method-start">6065 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">6832 ms</span>
+                <span class="method-start">6341 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
-                <span class="method-start">6914 ms</span>
+                <span class="method-start">6478 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9484 ms</span>
+                <span class="method-start">9632 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignOnMenuOpensTest</span>
-                <span class="method-start">9485 ms</span>
+                <span class="method-start">9633 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11381 ms</span>
+                <span class="method-start">10513 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
-                <span class="method-start">11467 ms</span>
+                <span class="method-start">10598 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">16000 ms</span>
+                <span class="method-start">13552 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySmallBusiness_CCOptionTitleTest</span>
-                <span class="method-start">16001 ms</span>
+                <span class="method-start">13553 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">23022 ms</span>
+                <span class="method-start">18162 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
-                <span class="method-start">23116 ms</span>
+                <span class="method-start">18247 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">27757 ms</span>
+                <span class="method-start">24115 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySmallBusiness_CashMngmntOptionTitleTest</span>
-                <span class="method-start">27757 ms</span>
+                <span class="method-start">24116 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">59757 ms</span>
+                <span class="method-start">31459 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
-                <span class="method-start">59855 ms</span>
+                <span class="method-start">31558 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">65736 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifySmallBusiness_CashMngmntOptionTitleTest</span>
-                <span class="method-start">65737 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">70176 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
-                <span class="method-start">70276 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">74819 ms</span>
+                <span class="method-start">36659 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySmallBusiness_PayrollOptionTitleTest</span>
-                <span class="method-start">74820 ms</span>
+                <span class="method-start">36660 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">104640 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
-                <span class="method-start">104730 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">110297 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifySmallBusiness_PayrollOptionTitleTest</span>
-                <span class="method-start">110297 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">115677 ms</span>
+                <span class="method-start">44156 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

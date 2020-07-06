@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="116.3" tests="7" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="44.909" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/chrislebron/eclipse-workspace/June20POMFramework/target/surefire/surefirebooter3565891971262688217.jar /Users/chrislebron/eclipse-workspace/June20POMFramework/target/surefire 2020-07-05T22-16-05_005-jvmRun1 surefire4860609422169749110tmp surefire_02976434608487213418tmp"/>
+    <property name="sun.java.command" value="/Users/chrislebron/eclipse-workspace/June20POMFramework/target/surefire/surefirebooter3113701450095970578.jar /Users/chrislebron/eclipse-workspace/June20POMFramework/target/surefire 2020-07-06T08-24-00_583-jvmRun1 surefire1536798295426134465tmp surefire_0793424860985984684tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/chrislebron/eclipse-workspace/June20POMFramework/target/test-classes:/Users/chrislebron/eclipse-workspace/June20POMFramework/target/classes:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/chrislebron/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/chrislebron/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/chrislebron/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/chrislebron/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/chrislebron/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/chrislebron/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/chrislebron/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/chrislebron/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/chrislebron/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/chrislebron/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/chrislebron/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/chrislebron/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/chrislebron/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/chrislebron/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/chrislebron/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/chrislebron/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/chrislebron/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/chrislebron/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/chrislebron/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/chrislebron/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/chrislebron/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/chrislebron/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/chrislebron/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/chrislebron/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/chrislebron/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/chrislebron/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/chrislebron/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/chrislebron/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/chrislebron/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/chrislebron/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/chrislebron/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/chrislebron/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/chrislebron/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/chrislebron/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/chrislebron/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/chrislebron/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/chrislebron/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/chrislebron/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/chrislebron/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/chrislebron/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/chrislebron/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/chrislebron/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/chrislebron/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/chrislebron/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/chrislebron/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/Users/chrislebron/.m2/repository/org/apache/poi/poi-excelant/3.17/poi-excelant-3.17.jar:/Users/chrislebron/.m2/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar:/Users/chrislebron/.m2/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar:/Users/chrislebron/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/Users/chrislebron/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar:/Users/chrislebron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/chrislebron/eclipse-workspace/June20POMFramework/target/surefire/surefirebooter3565891971262688217.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chrislebron/eclipse-workspace/June20POMFramework/target/surefire/surefirebooter3113701450095970578.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,47 +61,9 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="getHomePageLinksAmountTest" classname="Testcases.HomePageTest" time="0.19"/>
-  <testcase name="verifySignOnMenuOpensTest" classname="Testcases.HomePageTest" time="1.896"/>
-  <testcase name="verifySmallBusiness_CCOptionTitleTest" classname="Testcases.HomePageTest" time="7.021"/>
-  <testcase name="verifySmallBusiness_CashMngmntOptionTitleTest" classname="Testcases.HomePageTest" time="0">
-    <skipped message="Expected condition failed: waiting for title to contain &quot;Cash&quot;. Current title: &quot;SunTrust Bank | Personal, Mortgage and Small Business Banking&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Chriss-MacBook-Pro.local&apos;, ip: &apos;2601:588:4200:c6c0:8827:a5da:daee:7999%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.support.events.EventFiringWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/5q/jcmjcy29617...}, goog:chromeOptions: {debuggerAddress: localhost:50299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 62e39f99915209a8d0fb5714387d3d5d"/>
-    <system-out><![CDATA[Before navigating to: 'https://www.suntrust.com/'
-Navigated to:'https://www.suntrust.com/'
-Trying to find Element By : By.cssSelector: a.suntrust-subMenuanchor[data-analytics-value='Small Business']
-Found Element By : By.cssSelector: a.suntrust-subMenuanchor[data-analytics-value='Small Business']
-Trying to find Element By : By.linkText: Cash Management
-Found Element By : By.linkText: Cash Management
-Trying to click on: [[ChromeDriver: chrome on MAC (62e39f99915209a8d0fb5714387d3d5d)] -> link text: Cash Management]
-Clicked on: [[ChromeDriver: chrome on MAC (62e39f99915209a8d0fb5714387d3d5d)] -> link text: Cash Management]
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 7014
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 05, 2020 10:16:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifySmallBusiness_CashMngmntOptionTitleTest" classname="Testcases.HomePageTest" time="4.439"/>
-  <testcase name="verifySmallBusiness_PayrollOptionTitleTest" classname="Testcases.HomePageTest" time="0">
-    <skipped message="Expected condition failed: waiting for title to contain &quot;Payroll&quot;. Current title: &quot;SunTrust Bank | Personal, Mortgage and Small Business Banking&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Chriss-MacBook-Pro.local&apos;, ip: &apos;2601:588:4200:c6c0:8827:a5da:daee:7999%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.support.events.EventFiringWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/5q/jcmjcy29617...}, goog:chromeOptions: {debuggerAddress: localhost:50558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 388fcc75ce49315074560451b24dfc49"/>
-    <system-out><![CDATA[Before navigating to: 'https://www.suntrust.com/'
-Navigated to:'https://www.suntrust.com/'
-Trying to find Element By : By.cssSelector: a.suntrust-subMenuanchor[data-analytics-value='Small Business']
-Found Element By : By.cssSelector: a.suntrust-subMenuanchor[data-analytics-value='Small Business']
-Trying to find Element By : By.linkText: Payroll
-Found Element By : By.linkText: Payroll
-Trying to click on: [[ChromeDriver: chrome on MAC (388fcc75ce49315074560451b24dfc49)] -> link text: Payroll]
-Clicked on: [[ChromeDriver: chrome on MAC (388fcc75ce49315074560451b24dfc49)] -> link text: Payroll]
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 25043
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 05, 2020 10:17:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifySmallBusiness_PayrollOptionTitleTest" classname="Testcases.HomePageTest" time="5.38"/>
+  <testcase name="getHomePageLinksAmountTest" classname="Testcases.HomePageTest" time="0.271"/>
+  <testcase name="verifySignOnMenuOpensTest" classname="Testcases.HomePageTest" time="0.88"/>
+  <testcase name="verifySmallBusiness_CCOptionTitleTest" classname="Testcases.HomePageTest" time="4.609"/>
+  <testcase name="verifySmallBusiness_CashMngmntOptionTitleTest" classname="Testcases.HomePageTest" time="7.343"/>
+  <testcase name="verifySmallBusiness_PayrollOptionTitleTest" classname="Testcases.HomePageTest" time="7.496"/>
 </testsuite>
