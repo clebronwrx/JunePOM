@@ -1,6 +1,5 @@
 package utilities;
 
-import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -56,11 +55,9 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		System.out.println("Exception occured: " + error);
 		try {
 	TestUtil.screenshot(driver, "error" );
-		} catch (IOException e) {
-			e.printStackTrace();
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		} 
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
@@ -81,12 +78,10 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	}
 
 	public void beforeAlertAccept(WebDriver driver) {
-		// TODO Auto-generated method stub
 
 	}
 
 	public void afterAlertAccept(WebDriver driver) {
-		// TODO Auto-generated method stub
 
 	}
 

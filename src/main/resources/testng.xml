@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Regression Suite">
+<suite name="Regression Suite" thread-count="2" parallel="false">
 
 	<listeners>
 
@@ -21,7 +21,7 @@
 		</groups>
 		<classes>
 			<class name="Testcases.HomePageTest"></class>
-			<class name="Testcases.CNCPageTest"></class>
+			<!-- <class name="Testcases.CNCPageTest"></class> -->
 		</classes>
 
 

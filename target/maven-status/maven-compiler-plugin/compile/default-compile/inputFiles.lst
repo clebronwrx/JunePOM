@@ -2,6 +2,7 @@
 /Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/utilities/WebEventListener.java
 /Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/pages/HomePage.java
 /Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/ExtentReport/ExtentManager.java
+/Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/utilities/RetryFailure.java
 /Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/pages/CorpAndCommercialPage.java
 /Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/base/TestBase.java
 /Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/java/ExtentReport/ExtentReportListeners.java

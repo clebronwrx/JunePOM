@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.commons.compress.archivers.dump.InvalidFormatException;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -20,8 +19,8 @@ import base.TestBase;
 
 public class TestUtil extends TestBase{
 	
-	public static Workbook book;
-	public static Sheet sheet;
+	 private static Workbook book;
+	 private static Sheet sheet;
 	
 	
 	public static Object[][] getTestData(String sheetName) {
@@ -33,8 +32,6 @@ public class TestUtil extends TestBase{
 		}
 		try {
 			book = WorkbookFactory.create(file);
-		} catch (InvalidFormatException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -49,10 +46,10 @@ public class TestUtil extends TestBase{
 		return data;
 	}
 	
-	public static void screenshot(WebDriver driver, String shotName) throws Exception {
+	public static void screenshot(WebDriver driver,String name) throws Exception {
 		String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		File shot =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String currentDir = System.getProperty("user.dir");//+"/screenshots/" + date + ".png");
+		String currentDir = System.getProperty("user.dir");
 		String destination = currentDir + "/screenshot/"+date+".png";
 		FileUtils.copyFile(shot, new File(destination));
 	

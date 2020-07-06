@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression_Suite">
+              <span class="suite-name border-skipped">Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression_Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,  2 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods skipped suite-Regression_Suite"> (hide)</a> <!-- hide-methods skipped suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods skipped suite-Regression_Suite"> (show)</a> <!-- show-methods skipped suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Regression_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySmallBusiness_CashMngmntOptionTitleTest">verifySmallBusiness_CashMngmntOptionTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySmallBusiness_PayrollOptionTitleTest">verifySmallBusiness_PayrollOptionTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods passed suite-Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods passed suite-Regression_Suite"> (show)</a> <!-- show-methods passed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="getHomePageLinksAmountTest">getHomePageLinksAmountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySignOnMenuOpensTest">verifySignOnMenuOpensTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySmallBusiness_CCOptionTitleTest">verifySmallBusiness_CCOptionTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySmallBusiness_CashMngmntOptionTitleTest">verifySmallBusiness_CashMngmntOptionTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="Testcases.HomePageTest" hash-for-method="verifySmallBusiness_PayrollOptionTitleTest">verifySmallBusiness_PayrollOptionTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
+          <div class="suite-Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmallBusiness_CashMngmntOptionTitleTest">
+                  </a> <!-- verifySmallBusiness_CashMngmntOptionTitleTest -->
+                  <span class="method-name">verifySmallBusiness_CashMngmntOptionTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Cash&quot;. Current title: &quot;SunTrust Bank | Personal, Mortgage and Small Business Banking&quot; (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Chriss-MacBook-Pro.local&apos;, ip: &apos;2601:588:4200:c6c0:8827:a5da:daee:7999%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/5q/jcmjcy29617...}, goog:chromeOptions: {debuggerAddress: localhost:50299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 62e39f99915209a8d0fb5714387d3d5d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages.HomePage.checkSmallBusinessLinkOptions(HomePage.java:108)
+	at Testcases.HomePageTest.verifySmallBusiness_CashMngmntOptionTitleTest(HomePageTest.java:104)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmallBusiness_PayrollOptionTitleTest">
+                  </a> <!-- verifySmallBusiness_PayrollOptionTitleTest -->
+                  <span class="method-name">verifySmallBusiness_PayrollOptionTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Payroll&quot;. Current title: &quot;SunTrust Bank | Personal, Mortgage and Small Business Banking&quot; (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Chriss-MacBook-Pro.local&apos;, ip: &apos;2601:588:4200:c6c0:8827:a5da:daee:7999%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/5q/jcmjcy29617...}, goog:chromeOptions: {debuggerAddress: localhost:50558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 388fcc75ce49315074560451b24dfc49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages.HomePage.checkSmallBusinessLinkOptions(HomePage.java:108)
+	at Testcases.HomePageTest.verifySmallBusiness_PayrollOptionTitleTest(HomePageTest.java:88)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-skipped -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHomePageLinksAmountTest">
+                  </a> <!-- getHomePageLinksAmountTest -->
+                  <span class="method-name">getHomePageLinksAmountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignOnMenuOpensTest">
+                  </a> <!-- verifySignOnMenuOpensTest -->
+                  <span class="method-name">verifySignOnMenuOpensTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmallBusiness_CCOptionTitleTest">
+                  </a> <!-- verifySmallBusiness_CCOptionTitleTest -->
+                  <span class="method-name">verifySmallBusiness_CCOptionTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmallBusiness_CashMngmntOptionTitleTest">
+                  </a> <!-- verifySmallBusiness_CashMngmntOptionTitleTest -->
+                  <span class="method-name">verifySmallBusiness_CashMngmntOptionTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmallBusiness_PayrollOptionTitleTest">
+                  </a> <!-- verifySmallBusiness_PayrollOptionTitleTest -->
+                  <span class="method-name">verifySmallBusiness_PayrollOptionTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+        </div> <!-- panel Regression_Suite -->
+        <div panel-name="test-xml-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chrislebron/eclipse-workspace/June20POMFramework/src/main/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Regression Suite&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.suntrust.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExtentReport.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Regression Test chrome&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;links&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Test chrome --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">home</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getHomePageLinksAmountTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Suite');
+function tableData_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySmallBusiness_CashMngmntOptionTitleTest')
+data.setCell(0, 2, 'Testcases.HomePageTest')
+data.setCell(0, 3, 31999);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySmallBusiness_PayrollOptionTitleTest')
+data.setCell(1, 2, 'Testcases.HomePageTest')
+data.setCell(1, 3, 29819);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySmallBusiness_CCOptionTitleTest')
+data.setCell(2, 2, 'Testcases.HomePageTest')
+data.setCell(2, 3, 7021);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySmallBusiness_PayrollOptionTitleTest')
+data.setCell(3, 2, 'Testcases.HomePageTest')
+data.setCell(3, 3, 5379);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySmallBusiness_CashMngmntOptionTitleTest')
+data.setCell(4, 2, 'Testcases.HomePageTest')
+data.setCell(4, 3, 4439);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySignOnMenuOpensTest')
+data.setCell(5, 2, 'Testcases.HomePageTest')
+data.setCell(5, 3, 1896);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getHomePageLinksAmountTest')
+data.setCell(6, 2, 'Testcases.HomePageTest')
+data.setCell(6, 3, 186);
+window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Regression_Suite">
+              </div> <!-- times-div-Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkCNCHoverByOptionsTest</span>
+                <br/>
+                <span class="ignored-method-name">checkCNCHoverOptionsWithDPTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getHomePageLinksAmountTest</span>
+                <span class="method-start">6640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">6832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
+                <span class="method-start">6914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignOnMenuOpensTest</span>
+                <span class="method-start">9485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">11381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
+                <span class="method-start">11467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySmallBusiness_CCOptionTitleTest</span>
+                <span class="method-start">16001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">23022 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
+                <span class="method-start">23116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySmallBusiness_CashMngmntOptionTitleTest</span>
+                <span class="method-start">27757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">59757 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
+                <span class="method-start">59855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">65736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySmallBusiness_CashMngmntOptionTitleTest</span>
+                <span class="method-start">65737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">70176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
+                <span class="method-start">70276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySmallBusiness_PayrollOptionTitleTest</span>
+                <span class="method-start">74820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">104640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize(chrome, https://www.suntrust.com/)</span>
+                <span class="method-start">104730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">110297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySmallBusiness_PayrollOptionTitleTest</span>
+                <span class="method-start">110297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">115677 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

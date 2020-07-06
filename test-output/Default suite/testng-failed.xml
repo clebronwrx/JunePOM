@@ -6,10 +6,12 @@
 		<classes>
 			<class name="Testcases.HomePageTest">
 				<methods>
+					<include name="getHomePageLinksAmount" />
+					<include name="checkCNCHoverOptionsWithDP" />
 					<include name="setup" />
-					<include name="getHomePageLinks" />
-					<include name="checkCNCHoverOptions" />
+					<include name="verifySignOnMenuOpens" />
 					<include name="initialize" />
+					<include name="verifySmallBusinessPayrollOption" />
 					<include name="teardown" />
 				</methods>
 			</class> <!-- Testcases.HomePageTest -->
