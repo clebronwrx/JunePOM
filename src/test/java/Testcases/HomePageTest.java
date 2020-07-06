@@ -25,7 +25,6 @@ public class HomePageTest extends TestBase {
 	}
 
 	@BeforeMethod
-
 	public void setup() {
 		homepage = new HomePage();
 	}
@@ -33,9 +32,8 @@ public class HomePageTest extends TestBase {
 	@Test(groups = "home",retryAnalyzer = RetryFailure.class)
 	public void getHomePageLinksAmountTest() {
 
-		int linksAmount = driver.findElements(By.tagName("a")).size();
-		System.out.println(linksAmount);
-
+		int count= homepage.getHomePageLinks();
+		System.out.println(count);
 	}
 
 	@Test(enabled = false)

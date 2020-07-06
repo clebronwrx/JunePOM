@@ -108,4 +108,9 @@ public class HomePage extends TestBase {
 		wait.until(ExpectedConditions.titleContains(url));
 	}
 
+	public int getHomePageLinks() {
+		int linksAmount = driver.findElements(By.tagName("a")).size();
+		System.out.println(linksAmount);
+		return linksAmount;
+	}
 }

@@ -19,6 +19,7 @@
           <include name="verifySmallBusiness_CashMngmntOptionTitleTest"/>
           <include name="initialize"/>
           <include name="verifySmallBusiness_PayrollOptionTitleTest"/>
+          <include name="verifySmallBusiness_CCOptionTitleTest"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- Testcases.HomePageTest -->
